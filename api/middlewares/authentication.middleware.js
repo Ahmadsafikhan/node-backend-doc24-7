@@ -6,6 +6,7 @@ const authentication = async (req, res, next) => {
 
   const token = bearerToken.split(" ")[1];
 
+
   let isAuthenticated;
 
   try {
